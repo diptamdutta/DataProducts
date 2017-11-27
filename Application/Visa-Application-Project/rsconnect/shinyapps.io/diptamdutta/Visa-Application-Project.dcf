@@ -1,0 +1,13 @@
+name: Visa-Application-Project
+title: Visa-Application-Project
+username:
+account: diptamdutta
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 240492
+bundleId: 1098693
+url: https://diptamdutta.shinyapps.io/Visa-Application-Project/
+when: 1511780446.17858
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: h1b_kaggle.csv|helper.R
