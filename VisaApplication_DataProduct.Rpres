@@ -1,0 +1,35 @@
+Course Project: Shiny Application and Reproducible Pitch
+========================================================
+author: Diptam Dutta
+date: 27/11/2017
+autosize: true
+
+Overview
+========================================================
+
+This project was built as a part for the course Developing Data Products. 
+
+- The Application is deployed in shinnyapps LINK <https://diptamdutta.shinyapps.io/Visa-Application-Project>
+- Source Code can be found in Github Repo <https://github.com/diptamdutta/DataProducts>
+- Application Code can be viewed in Github <https://github.com/diptamdutta/DataProducts/tree/master/Application/Visa-Application-Project>
+
+Application Description
+=======================================================
+
+This application is a analysis of H1B visas issued by US. Data Source is obtained from <https://www.kaggle.com>.  
+For betterment of the analysis as well as performance we have extracted only the first 500 rows of the dataset.  
+
+This application require you to choose the different sets of H1B validation status and based on that we can see how many of the application got approved etc.  
+
+The result also contains a plot describes status of the application.
+
+Source Description
+========================================================
+Showing summary of the data
+
+```{r echo=TRUE}
+data <- read.csv("Application/Visa-Application-Project/data.csv",header = T, sep = ',')
+summary(data)
+```
+
+
